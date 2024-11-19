@@ -1,0 +1,386 @@
+      {/* Header Part Start */}/
+      <div className="w-full">
+        <Container >
+          <Flex>
+            <div className="w-logoW mt-8">
+              <Image imgSrc={logoo} />
+            </div>
+            <div className="w-menuW py-8">
+              <Flex className={"justify-center text-white"}>
+                <Menu menuName={"Home"} />
+                <Menu menuName={"Shop"} />
+                <Menu menuName={"About"} />
+                <Menu menuName={"Contact"} />
+              </Flex>
+            </div>
+          </Flex>
+        </Container>
+      </div>
+      {/* Header Part End */}/
+
+      {/* Category Part Start */}/
+
+      <div className=" w-full bg-shopColor py-6 border border-menuColor">
+        <Container className={"max-w-headerContainer"} >
+          <Flex className={"items-center"} >
+            <div className="w-1/5">
+              <Flex className={"gap-x-4"}>
+                <FaEquals />
+                <Heading as="h3" text={"Shop by Category"} className={"font-dm text-sm text-hbColor"} />
+              </Flex>
+            </div>
+            <div className={"w-3/5 relative"}>
+              <input type="text" className={"p-4 bg-white rounded-lg w-full"} placeholder="Search Products" />
+              <FaSearch className={"absolute top-1/2 right-5 -translate-y-1/2"} />
+            </div>
+            <div className="w-1/5">
+              <Flex className={"justify-end"}>
+                <FaUser className={"ml-4"} />
+                <FaCaretDown className={"mr-8"} />
+                <FaShoppingCart />
+              </Flex>
+            </div>
+          </Flex>
+        </Container>
+      </div>
+
+      {/* Category Part End */}/
+
+      {/* Banner Part Start  */}/
+
+      <div className="w-full bg-bnrImg py-[300px] bg-no-repeat bg-cover bg-center">
+
+      </div>
+
+      {/* Banner Part End  */}/
+
+      {/* Information Part Start */}/
+
+      <div className="w-full py-[30px]">
+        <Container className={"max-w-headerContainer"}>
+          <Flex className={"justify-between "}>
+
+            <div className="w-[30%]">
+              <Flex className={"gap-x-4"}>
+                <PiNumberTwoBold />
+                <Heading as="h3" text={"Two years warranty"} className={"font-dm text-sm text-hbColor capitalize"} />
+              </Flex>
+            </div>
+
+            <div className="w-[30%]">
+              <Flex className={"gap-x-4"}>
+                <FaTruck />
+                <Heading as="h3" text={"Free shipping"} className={"font-dm text-sm text-hbColor capitalize"} />
+              </Flex>
+            </div>
+
+            <div className="w-[30%]">
+              <Flex className={"gap-x-4"}>
+                <FaUndo />
+                <Heading as="h3" text={"Return policy in 30 days"} className={"font-dm text-sm text-hbColor capitalize"} />
+              </Flex>
+            </div>
+
+          </Flex>
+        </Container>
+      </div>
+
+      {/* Information Part End */}/
+
+      {/* Ads Part Start */}/
+
+      <div className="pt-[140px] pb-[70px]">
+        <Container className={"max-w-headerContainer"} >
+          <Flex className={"justify-between"}>
+            <div className="w-[49%]">
+              <Image imgSrc={imgOne} />
+            </div>
+            <div className="w-[49%]">
+              <Image imgSrc={imgTwo} className={"pb-8"} />
+              <Image imgSrc={imgThree} />
+            </div>
+          </Flex>
+
+        </Container>
+      </div>
+
+      Ads Part End ---------
+      ---------------------
+
+        {/* Arrivals Part Start */}/
+
+      <div className="w-full bg-menuColo py-[150px]">
+        <Container className={"max-w-headerContainer"} >
+          <Heading as="h3" text={"New Arrivals"} className={"font-dm text-[39px] font-bold text-hbColor pb-10"} />
+          <Flex className={"justify-between"}>
+            <div className="w-[23%]  relative group ">
+              <Products />
+            </div>
+
+            <div className="w-[23%]  relative group ">
+              <Products />
+            </div>
+
+            <div className="w-[23%]  relative group ">
+              <Products />
+            </div>
+
+            <div className="w-[23%]  relative group ">
+              <Products />
+            </div>
+          </Flex>
+
+
+        </Container>
+      </div>
+
+      {/* Arrivals Part End */}/
+
+
+
+      Orebi Header theke slider part
+      ---------------------------------
+      -------------------------------------
+      --------------------------
+      ----------------------------------
+
+
+        {/* Header Part Start */}/
+      <div className="w-full">
+        <Container >
+          <Flex>
+            <div className="w-logoW mt-8">
+              <Image imgSrc={logoo} />
+            </div>
+            <div className="w-menuW py-8">
+              <Flex className={"justify-center text-white"}>
+                <Menu menuName={"Home"} />
+                <Menu menuName={"Shop"} />
+                <Menu menuName={"About"} />
+                <Menu menuName={"Contact"} />
+              </Flex>
+            </div>
+          </Flex>
+        </Container>
+      </div>
+      {/* Header Part End */}/
+
+      {/* Category Part Start */}/
+
+      <div className=" w-full bg-shopColor py-6 border border-menuColor">
+        <Container className={"max-w-headerContainer"} >
+          <Flex className={"items-center"} >
+            <div className="w-1/5">
+              <Flex className={"gap-x-4"}>
+                <FaEquals />
+                <Heading as="h3" text={"Shop by Category"} className={"font-dm text-sm text-hbColor"} />
+              </Flex>
+            </div>
+            <div className={"w-3/5 relative"}>
+              <input type="text" className={"p-4 bg-white rounded-lg w-full"} placeholder="Search Products" />
+              <FaSearch className={"absolute top-1/2 right-5 -translate-y-1/2"} />
+            </div>
+            <div className="w-1/5">
+              <Flex className={"justify-end"}>
+                <FaUser className={"ml-4"} />
+                <FaCaretDown className={"mr-8"} />
+                <FaShoppingCart />
+              </Flex>
+            </div>
+          </Flex>
+        </Container>
+      </div>
+
+      {/* Category Part End */}/
+
+      {/* Banner Part Start  */}/
+
+      <div className="w-full bg-bnrImg py-[300px] bg-no-repeat bg-cover bg-center">
+
+      </div>
+
+      {/* Banner Part End  */}/
+
+      {/* Information Part Start */}/
+
+      <div className="w-full py-[30px]">
+        <Container className={"max-w-headerContainer"}>
+          <Flex className={"justify-between "}>
+
+            <div className="w-[30%]">
+              <Flex className={"gap-x-4"}>
+                <PiNumberTwoBold />
+                <Heading as="h3" text={"Two years warranty"} className={"font-dm text-sm text-hbColor capitalize"} />
+              </Flex>
+            </div>
+
+            <div className="w-[30%]">
+              <Flex className={"gap-x-4"}>
+                <FaTruck />
+                <Heading as="h3" text={"Free shipping"} className={"font-dm text-sm text-hbColor capitalize"} />
+              </Flex>
+            </div>
+
+            <div className="w-[30%]">
+              <Flex className={"gap-x-4"}>
+                <FaUndo />
+                <Heading as="h3" text={"Return policy in 30 days"} className={"font-dm text-sm text-hbColor capitalize"} />
+              </Flex>
+            </div>
+
+          </Flex>
+        </Container>
+      </div>
+
+      {/* Information Part End */}/
+
+      {/* Ads Part Start */}/
+
+      <div className="pt-[140px] pb-[70px]">
+        <Container className={"max-w-headerContainer"} >
+          <Flex className={"justify-between"}>
+            <div className="w-[49%]">
+              <Image imgSrc={imgOne} />
+            </div>
+            <div className="w-[49%]">
+              <Image imgSrc={imgTwo} className={"pb-8"} />
+              <Image imgSrc={imgThree} />
+            </div>
+          </Flex>
+
+        </Container>
+      </div>
+
+      {/* Ads Part End ---------
+      --------------------- */}
+
+      {/* Arrivals Part Start */}/
+
+      <div className="w-full bg-menuColo py-[100px]">
+        <Container className={"max-w-headerContainer"} >
+          <Heading as="h3" text={"New Arrivals"} className={"font-dm text-[39px] font-bold text-hbColor pb-8"} />
+          {/* /* <Flex className={"justify-between"}>
+            <div className="w-[23%]  relative group ">
+              <Products />
+            </div>
+
+            <div className="w-[23%]  relative group ">
+              <Products />
+            </div>
+
+            <div className="w-[23%]  relative group ">
+              <Products />
+            </div>
+
+            <div className="w-[23%]  relative group ">
+              <Products />
+            </div>
+          </Flex> */}
+
+          <Slider {...settings}>
+
+            <div className={"relative group px-4"}>
+              <Products />
+
+            </div>
+
+            <div className={"relative group px-4"}>
+              <Products />
+
+            </div>
+
+            <div className={"relative group px-4"}>
+              <Products />
+
+            </div>
+
+            <div className={"relative group px-4"}>
+              <Products />
+
+            </div>
+
+            <div className={"relative group px-4"}>
+              <Products />
+
+            </div>
+
+
+          </Slider>
+
+
+
+
+        </Container>
+      </div>
+
+      {/* Arrivals Part End */}/
+
+      {/* 
+        <Container className={"max-w-headerContainer"}>
+        <Slider {...settings}>
+       
+       <div className={"relative group px-4"}>
+         <Products />
+    
+       </div>
+
+       <div className={"relative group px-4"}>
+         <Products />
+    
+       </div>
+
+       <div className={"relative group px-4"}>
+         <Products />
+    
+       </div>
+
+       <div className={"relative group px-4"}>
+         <Products />
+    
+       </div>
+
+       <div className={"relative group px-4"}>
+         <Products />
+    
+        </div>     
+      
+         </Slider>
+
+          </Container> */}
+
+-----------------------------------
+-----------------------------
+------------------------------
+
+//  import Products from './components/layout/Products';
+// import Users from './components/Users';
+
+-----------------------------------
+-------------------------------------
+
+// import './App.css'
+// import {
+//   createBrowserRouter,
+//   createRoutesFromElements,
+//   RouterProvider,
+//   Route,
+// } from "react-router-dom";
+
+
+// const router = createBrowserRouter(
+
+//   createRoutesFromElements(
+//     <>
+//       <Route
+//         path="/"
+//         element={"This is Maya"}
+//       />
+
+//     </>
+//   )
+// );
+------------------------
+----------------------
+------------------------
+
+

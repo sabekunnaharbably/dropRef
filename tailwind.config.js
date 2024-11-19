@@ -7,20 +7,23 @@ export default {
   theme: {
     extend: {
 
-       // google font Start
-       fontFamily: {
+      // google font Start
+      fontFamily: {
         'dm': ['DM Sans'],
-                  
+
       },
       // google font End  
+
       // colors Start
       colors: {
-        hdBg: '#160C6D',
-        hbColor: '#FDBB57',
-       
-        },
-      
-     // colors End 
+        menuColor: '#767676',
+        menuColorh: '#232323',
+        shopColor: '#F5F5F3',
+         arrivalColor: '#979797'
+
+      },
+
+      // colors End 
 
 
       // Container Part
@@ -30,8 +33,33 @@ export default {
         'banerContainer': '962px',
 
       },
+      // Container Part End
 
-      // Color Part
+      //  Width Part Start
+      width: {
+
+        logoW: '20%',
+        menuW: '80%'
+
+
+      },
+
+      //  Width Part Start
+
+      //  bannerImage Start
+
+      backgroundImage: {
+        bannerImg: "url('/img/hero-pattern.svg')",
+        bnrImg: "url('../src/assets/Intro.png')"
+
+      },
+
+
+
+      //  bannerImage End
+
+
+
 
     },
   },
