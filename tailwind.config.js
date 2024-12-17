@@ -19,7 +19,9 @@ export default {
         menuColor: '#767676',
         menuColorh: '#232323',
         shopColor: '#F5F5F3',
-         arrivalColor: '#979797'
+         arrivalColor: '#979797', 
+         fotterColor: '#6D6D6D', 
+         fotterMenuColor: '#262626',           
 
       },
 
@@ -50,7 +52,11 @@ export default {
 
       backgroundImage: {
         bannerImg: "url('/img/hero-pattern.svg')",
-        bnrImg: "url('../src/assets/Intro.png')"
+
+        bnrImg: "url('../src/assets/Intro.png')",
+
+        phoneImg: "url('../src/assets/Add2.png')",
+
 
       },
 

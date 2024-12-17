@@ -259,6 +259,9 @@
       <div className="w-full bg-menuColo py-[100px]">
         <Container className={"max-w-headerContainer"} >
           <Heading as="h3" text={"New Arrivals"} className={"font-dm text-[39px] font-bold text-hbColor pb-8"} />
+          ---------------------------------------------
+          Bostese na ki Part??????????????????????????
+          ---------------------------------------------
           {/* /* <Flex className={"justify-between"}>
             <div className="w-[23%]  relative group ">
               <Products />
@@ -276,6 +279,9 @@
               <Products />
             </div>
           </Flex> */}
+          ----------------------------------------
+          ????????????????????????????????????
+          -----------------------------------------
 
           <Slider {...settings}>
 
@@ -383,4 +389,35 @@
 ----------------------
 ------------------------
 
+
+-----------------------
+react router dom er import part
+------------------------
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
+import Product from './components/Product';
+
+const router = createBrowserRouter(
+
+  createRoutesFromElements(
+
+      <Route path="/"
+        element={<Product/>} >
+  
+    </Route>
+  )
+
+);
+--------------------------------
+return Part
+-----------------------------------
+
+ <RouterProvider router={router} />
+
+ -----------------------------------
+ -------------------------------------
 
